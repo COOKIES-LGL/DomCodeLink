@@ -1,0 +1,36 @@
+{
+  "name": "domlinkcode",
+  "version": "1.0.0",
+  "description": "open code from dom clickAction",
+  "main": "lib/bundle.cjs.js",
+  "module": "lib/bundle.esm.js",
+  "browser": "lib/bundle.browser.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "build:types": "tsc"
+  },
+  "keywords": [
+    "Link",
+    "Dom",
+    "Open",
+    "vscode"
+  ],
+  "author": "guilin.li",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-typescript": "^8.3.4",
+    "@typescript-eslint/eslint-plugin": "^5.33.1",
+    "@typescript-eslint/parser": "^5.33.1",
+    "eslint": "^8.22.0",
+    "rollup": "^2.78.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
